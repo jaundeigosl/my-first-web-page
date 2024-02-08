@@ -1,0 +1,31 @@
+
+body {    
+    padding: 20px;}
+
+.title{
+    display:flex;
+    font-family: 'Courier New';
+    padding: 2px; 
+    justify-content:space-between;   
+    flex-wrap: wrap;
+    
+}
+.title h1{
+    margin-bottom: 0.5px;
+    height:50px;
+}
+
+.title p{
+    align-self:flex-start;
+}
+
+#main_nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #5B21F2;
+}
+
+.game p{
+    font-family: 'sans-serif';
+    color:black;
+}
