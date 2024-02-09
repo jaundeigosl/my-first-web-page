@@ -4,11 +4,13 @@
     margin:0px;
     border:0px;
     font-family: "Roboto",sans-serif;
+    --backgd-color:#C6D8D3;
+    --button-color:#F0544F;
 }
 
 body {    
     padding: 20px;
-    background-color: #C6D8D3;
+    background-color: var(--backgd-color);
 }
 
 header{
@@ -45,10 +47,13 @@ nav{
 .main-nav a{
     text-decoration: none;
     color: black;
-    background-color:#F0544F;
+    background-color:var(--button-color);
     border-radius: 15%;
     border:solid 2px black;
     padding:2.5px;
+}
+.main-nav h3{
+    padding-bottom:5px;
 }
 
 .games{
@@ -66,7 +71,7 @@ nav{
 .game-image{
     width:300px; 
     height:250px;
-    border-radius: 15%;
+    border-radius: 5%;
     border:solid 2px black;
 }
 
@@ -74,7 +79,7 @@ nav{
     padding-left:15px;
 }
 
-h2{
+.games h2{
     padding-top:20px;
     padding-bottom:20px;
 }
