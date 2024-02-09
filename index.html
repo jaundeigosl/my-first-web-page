@@ -5,56 +5,67 @@
         <link href="styles.css" type="text/css" rel="stylesheet">
     </head>
     <header>
-        <div class = "title" width=1200px height=200px>
-            <h1>Welcome to my page of my favorite games</h1>
-            <img id="profile-pic" width=100px heigth=100px src="./images/Frogking_frog_using_a_computer_hacker_cyberpunk_dark_manga_0_6bb7b35e-86dd-4053-8d0d-029f53e10349.png">             
+        <section class = "head-title">
+            <h1>Welcome to my page of my favorite games</h1>                         
             <p>Here i will show my favorite games and a brief description of each one</p>                   
-        </div>
+        </section>
+        <img id="profile-pic" alt="Profile picture of the author" src="./images/Frogking_frog_using_a_computer_hacker_cyberpunk_dark_manga_0_6bb7b35e-86dd-4053-8d0d-029f53e10349.png">
     </header>
     <body>
         <main>
             <!--Here i will put my profie picture -->            
-            <div class="direct-links">
+            <section class="main-nav">
                 <h3>Go direct to the game!</h3>
-                <nav id="main_nav">
+                <nav >
                      <a href="#game1">name1</a>&emsp;<a href="#game2">name2</a>&emsp;<a href="#game3">name3</a>&emsp;<a href="#game4">name4 </a>
-                </nav>
-            </div>
-            <div class="game">
-                <h2 id ="game1">Game name 1</h2>
-                <img  alt="Game main image" width=300px height = 250px src="https://sm.ign.com/ign_za/review/d/dark-souls/dark-souls-remastered-for-switch-review_zbfc.jpg">
-                <p>Lore ipsum</p>
-            </div>
-            <div class="game">
+            </section>
+            
+            <section class="games">
+                <h2 id="game1"> Game name 1</h2>
+                <article class="game">  
+                    <div class="image-container">
+                        <img class ="game-image" alt="Game main image"  src="https://sm.ign.com/ign_za/review/d/dark-souls/dark-souls-remastered-for-switch-review_zbfc.jpg">
+                    </div>                  
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </article>
                 <h2 id="game2">Game name 2</h2>
-                <img alt="Game main image" width=300px height = 250px src="https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG">
-                <p>Lore ipsum</p>
-            </div>
-            <div class="game">
+                <article class="game"> 
+                    <div class="image-container">
+                        <img class ="game-image" alt="Game main image" src="https://upload.wikimedia.org/wikipedia/en/0/05/MassEffect2_cover.PNG">
+                    </div>                   
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </article>                
                 <h2 id="game3">Game name 3</h2>
-                <img alt="Game main image" width=300px height = 250px src="https://upload.wikimedia.org/wikipedia/en/e/e5/Medieval_II_Total_War_pc.jpg">
-                <p>Lore ipsum</p>
-            </div>
-            <div class="game">
+                <article class="game">
+                    <div class="image-container">
+                        <img class ="game-image" alt="Game main image" src="https://upload.wikimedia.org/wikipedia/en/e/e5/Medieval_II_Total_War_pc.jpg">
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </article>                
                 <h2 id="game4">Game name 4</h2>
-                <img alt="Game main image" width=300px height = 250px src="https://static.wikia.nocookie.net/dragonball/images/3/37/DBZ_Tenkaichi_3_Cover_2.jpg/revision/latest?cb=20131128201900">
-                <p>Lore ipsum</p>
-            </div>            
+                <article class="game">
+                    <div class="image-container">
+                        <img class ="game-image" alt="Game main image" src="https://static.wikia.nocookie.net/dragonball/images/3/37/DBZ_Tenkaichi_3_Cover_2.jpg/revision/latest?cb=20131128201900">
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </article> 
+            </section>                       
         </main>
+        <footer>
+            <h3>Follow me!</h3>
+            <ul>
+                <li>
+                    <p>
+                        X: <a href="https://twitter.com/jaundeigosl" target="_blank">@jaundeigosl</a>
+                    </p>                
+                </li>
+                <li>
+                    <p>
+                        GitHub: <a href="https://github.com/jaundeigosl" target="_blank">jaundeigosl</a>
+                    </p>                
+                </li>                        
+            </ul>
+        </footer>
     </body>
-    <footer>
-        <h3>Follow me!</h3>
-        <ul>
-            <li>
-                <p>
-                    X: <a href="https://twitter.com/jaundeigosl" target="_blank">@jaundeigosl</a>
-                </p>                
-            </li>
-            <li>
-                <p>
-                    GitHub: <a href="https://github.com/jaundeigosl" target="_blank">jaundeigosl</a>
-                </p>                
-            </li>                        
-        </ul>
-    </footer>
+    
 </html>
